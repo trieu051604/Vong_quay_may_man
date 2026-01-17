@@ -212,7 +212,7 @@ const App: React.FC = () => {
                 <div className={`absolute inset-0 rounded-full border-2 ${isButtonEnabled ? 'border-cyan-500/50 group-hover:border-cyan-400 animate-[spin_4s_linear_infinite]' : 'border-slate-700'}`}></div>
                 <div className={`absolute inset-2 rounded-full border border-dashed ${isButtonEnabled ? 'border-cyan-500/30 group-hover:border-cyan-400 animate-[spin_8s_linear_infinite_reverse]' : 'border-slate-700'}`}></div>
                 <span className="font-mono font-black text-xl tracking-tighter">
-                  {isSpinning || isSaving ? '...' : 'INIT'}
+                  {isSpinning || isSaving ? '...' : 'QUAY'}
                 </span>
               </button>
               {!isButtonEnabled && eligibleParticipants.length === 0 && participants.length > 0 && (
