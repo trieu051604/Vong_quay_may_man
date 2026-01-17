@@ -1,0 +1,7 @@
+{
+  "name": "Lucky Draw Vũ Trụ",
+  "description": "Một ứng dụng vòng quay may mắn chủ đề vũ trụ với tích hợp Google Sheets làm backend.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
